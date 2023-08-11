@@ -40,6 +40,7 @@ optional arguments:
 
 
 **Out files generated**
+
 *TelFusDetectorCaller.py* will generate the next files:
 - *Sample.all_chromosomes.coverage.tsv* : File listing the read length, total number of reads and mean coverage in the sample.
 - *Sample.summary_fusions.pass.tsv* : File listing the *PASS* telomere fusion calls and all characteristics. It includes the read-pairs supporting the somatic telomere fusions and the read-pairs supporting the chromosome 9 endogenous fusion.
