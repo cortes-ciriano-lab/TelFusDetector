@@ -1,7 +1,7 @@
 # TelFusDetector
 TelFusDetector provides functionalities for the detection of telomere fusions using whole-genome sequencing data.
 
-# Installation and requirements
+## Installation and requirements
 TelFusDetector requires Python version >=3.7.0 and [samtools](https://github.com/samtools/samtools).
 
 - We strongly recommend building your own [conda](https://docs.conda.io/en/latest/) environment as follows:
@@ -16,7 +16,7 @@ conda activate TelFusDetector
 pip install -r requirements.txt
 ```
 
-# Usage
+## Usage
 
 ### TelFusDetectorCaller
 This script detects telomere fusions in WGS DNA sequencing data sets (paired-end sequencing data). It can be run with multiple processes to speed up the computation. 
@@ -94,10 +94,10 @@ optional arguments:
 
 - File with the TF rates. If `--variables` provided, TF rates for each group.
 
-# License
+## License
 **TelFusDetector is free for academic use only.** If you are not a member of a public funded academic and/or education and/or research institution you must obtain a commercial license from EMBL Enterprise Management GmbH (EMBLEM); please email EMBLEM (info@embl-em.de).
 
-# Contact
-If you have any comments or suggestions please raise an issue or contact us:
-Francesc Muyas: fmuyas@ebi.ac.uk
-Isidro Cortes-Ciriano: icortes@ebi.ac.uk
+## Contact
+If you have any comments or suggestions, please raise an issue or contact us:
+- Francesc Muyas: fmuyas@ebi.ac.uk
+- Isidro Cortes-Ciriano: icortes@ebi.ac.uk
