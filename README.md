@@ -72,8 +72,12 @@ optional arguments:
                         telomere fusions (follow this format --variables VAR1
                         VAR2 VAR3 ...)
   --purity PURITY       Tumour purity [Default = 1]
-  --outfile OUTFILE     Output file with the calulated telomere fusion rates
+  --outfile OUTFILE     Output file with the calculated telomere fusion rates
 ```
+
+**Out file generated**
+
+- File with the TF rates. If `--variables` provided, TF rates for each group.
 
 # License
 **TelFusDetector is free for academic use only.** If you are not a member of a public funded academic and/or education and/or research institution you must obtain a commercial license from EMBL Enterprise Management GmbH (EMBLEM); please email EMBLEM (info@embl-em.de).
