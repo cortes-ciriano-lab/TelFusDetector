@@ -1,6 +1,21 @@
 # TelFusDetector
 TelFusDetector provides functionalities for the detection of telomere fusions using whole-genome sequencing data.
 
+# Installation and requirements
+TelFusDetector requires Python version >=3.7.0 and [samtools](https://github.com/samtools/samtools).
+
+- We strongly recommend building your own [conda](https://docs.conda.io/en/latest/) environment as follows:
+
+```
+conda create -n TelFusDetector -c bioconda python=3.7 samtools
+conda activate TelFusDetector
+```
+
+- Additional dependencies can be installed by running the following commands:
+```
+pip install -r requirements.txt
+```
+
 # Usage
 
 ### TelFusDetectorCaller
