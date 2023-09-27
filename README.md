@@ -1,6 +1,10 @@
 # TelFusDetector
 TelFusDetector provides functionalities for the detection of telomere fusions using whole-genome sequencing data.
 
+If you use TelFusDetector (see License at the bottom of this page), please cite our publication [Muyas & Gomez-Rodriguez et al. 2023](
+https://www.biorxiv.org/content/10.1101/2022.01.25.477771v1).
+
+
 ## Installation and requirements
 TelFusDetector requires Python version >=3.7.0 and [samtools](https://github.com/samtools/samtools).
 
@@ -39,7 +43,8 @@ optional arguments:
                         or Hg19)
   --bam2 BAM2           BAM file with unmapped reads (Sorted by coordinate and
                         indexed). If provided, it will speed up the
-                        computation
+                        computation. If not provided, TelFusDetector will do
+                        it internally.
   --outfolder OUTFOLDER
                         Out directory
   --sample SAMPLE       Sample ID. All output files will start with this
