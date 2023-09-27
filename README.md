@@ -1,4 +1,6 @@
 # TelFusDetector
+[![DOI](https://zenodo.org/badge/676864666.svg)](https://zenodo.org/badge/latestdoi/676864666)
+
 TelFusDetector provides functionalities for the detection of telomere fusions using whole-genome sequencing data.
 
 If you use TelFusDetector (see License at the bottom of this page), please cite our publication [Muyas & Gomez-Rodriguez et al. 2023](
